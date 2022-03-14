@@ -17,7 +17,7 @@ const io = new Server(httpServer, {
   }
 });
 
-app.use(express.static('app'));
+app.use(express.static('example'));
 
 const s1 = new SimplexNoise(Math.round(Math.random() * 1000));
 const s2 = new SimplexNoise(Math.round(Math.random() * 1000));

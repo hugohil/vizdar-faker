@@ -35,6 +35,7 @@ connect your client to the server
           { x, y }, // person 3
           { x, y }, // person 4
         ]
+        // with x and y normalized [0-1]
          */
       });
     });
